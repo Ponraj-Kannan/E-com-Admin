@@ -1,0 +1,12 @@
+body {
+  font-family: "Montserrat", sans-serif;  
+  margin: 0;
+  padding: 0;
+  font-size: .9rem;
+  background-color: #292c35;
+  color: beige;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

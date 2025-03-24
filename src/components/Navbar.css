@@ -1,0 +1,29 @@
+.navbar {
+    z-index: 2;
+    margin-top: -45px;
+    width: 100%;
+    height: 45px;
+    background-color: #e25755f3;
+    /* background-color: #4454b9e7; */
+    border-bottom: 1px solid beige;
+    position: fixed;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item, .nav-title {
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: beige;
+  border: 1px solid rgba(245, 245, 220, 0);
+}
+
+.nav-item:hover {
+  /* background-color: #5261bed1; */
+  border: 1px solid beige;
+  background-color: rgba(245, 245, 220, 0.094);
+}
