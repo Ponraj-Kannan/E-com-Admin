@@ -44,7 +44,7 @@ function App() {
 
   return (
     <AppProvider>
-      <BrowserRouter>
+       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Navbar onSelectCategory={handleCategorySelect} toggleTheme={toggleTheme}/>
         <Routes className={theme ? "bg-light" : "bg-dark"}>
           <Route path="/" element={ <Home addToCart={addToCart} selectedCategory={selectedCategory} theme={theme} />} />
